@@ -1,0 +1,75 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(247, 247, 247);
+}
+
+.cardContainer {
+  width: 500px;
+  background-color: rgb(55, 55, 55);
+}
+
+.fpage h1 {
+  font-family: "Comfortaa", sans-serif;
+  letter-spacing: 3px;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-align: center;
+  color: black;
+  font-weight: 500;
+  font-size: xx-large;
+  padding-top: 60px;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+.fpage h2 {
+  font-family: "Abel", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: large;
+  margin-top: 0;
+  margin-bottom: 10;
+  text-align: center;
+  color: rgb(183, 185, 189);
+}
+h3 {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-align: center;
+  margin: 10px;
+  color: rgb(183, 185, 189);
+}
+.fpage p {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  
+}
+.fpage hr {
+  width: 40%;
+  color: rgb(131, 131, 131);
+}
+.cardContainer {
+  margin-top: 10px;
+  text-align: center;
+
+  margin: auto;
+  width: 50%;
+}
+
+.card {
+  margin: 10px;
+  max-width: 150px;
+  max-height: 300px;
+}
+
+.navArrow-flip {
+  transform: scaleX(-1);
+}

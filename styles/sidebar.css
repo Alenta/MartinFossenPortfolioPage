@@ -1,0 +1,51 @@
+/*Unordered list in navbar*/
+.navbar ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar .logoLink {
+  letter-spacing: 2px;
+  color: black;
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: x-large;
+}
+.navbar .categoryLink {
+  padding: 10px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  font-family: "Abel", sans-serif;
+  font-weight: 500;
+  font-size: large;
+}
+.navbar .subLink {
+  padding: 10px;
+  font-family: "Abel", sans-serif;
+  margin: 0px;
+  font-weight: 400;
+  font-size: medium;
+  color: rgb(125, 125, 125);
+}
+
+/*Links in navbar*/
+.navbar a {
+  color: rgb(74, 74, 74);
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  font-weight: normal;
+  font-family: "Comfortaa", sans-serif;
+}
+
+.navcontainer {
+  float: left;
+  padding: 0px;
+  margin: 0px;
+  width: 450px;
+  height: 100vh;
+  background-color: rgb(235, 235, 235);
+}
