@@ -4,13 +4,8 @@ body {
   background-color: rgb(247, 247, 247);
 }
 
-.cardContainer {
-  width: 500px;
-  background-color: rgb(55, 55, 55);
-}
-
 .fpage h1 {
-  font-family: "Comfortaa", sans-serif;
+  font-family: "Abel", sans-serif;
   letter-spacing: 3px;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -32,44 +27,146 @@ body {
   margin-top: 0;
   margin-bottom: 10;
   text-align: center;
-  color: rgb(183, 185, 189);
+  color: rgb(150, 150, 150);
 }
-h3 {
-  font-family: "Comfortaa", sans-serif;
+
+.cardHeader {
+  display: inline-block;
+  font-style: none;
+  font-family: "Abel", sans-serif;
   font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: lighter;
   font-style: normal;
   text-align: center;
-  margin: 10px;
-  color: rgb(183, 185, 189);
+  color: rgb(150, 150, 150);
+}
+.sideh3{
+  padding-left:280px;
+  padding-right:79px;
+  padding-top:115px;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.fpage .pHolder{
+  padding-top:20px;
+  padding-left:766px;
+  max-width: 450px;
 }
 .fpage p {
   font-family: "Figtree", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
+  font-size: small;
   font-style: normal;
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: rgb(150, 150, 150);
   
 }
 .fpage hr {
-  width: 40%;
+  width: 60%;
   color: rgb(131, 131, 131);
 }
 .cardContainer {
-  margin-top: 10px;
-  text-align: center;
-
-  margin: auto;
-  width: 50%;
+  max-width: 100%;
 }
 
 .card {
-  margin: 10px;
-  max-width: 150px;
+  transition: all 0.25s ease-in-out;
+  padding-left:25px;
+  padding-right:25px;
+  max-width: 125px;
   max-height: 300px;
 }
 
+.card:hover{
+  scale:1.05;
+  filter: drop-shadow(0px 4px 4px rgb(207,78,78));
+}
+#wwfCard{
+  display: none;
+}
+
+#nwtCard{
+  display: inline;
+}
+#sSmartCard{
+  padding-left:50px;
+  display: none;
+  transition: all 0.25s ease-in-out;
+  
+}
+.ssCard{
+  
+  max-width: 400px;
+  padding-right:25px;
+}
+.wwfCard{
+  padding-left:250px;
+  max-width: 400px;
+  padding-right:25px;
+}
+.wwfCardImg{    
+  padding-left:50px;
+  max-width: 400px;
+}
+
+#nwtText{
+  display:inline;
+}
+#wwfText{
+  display: none;
+}
+#ssText{
+  display: none;
+}
+
+
+#sSmartCard:hover{
+  scale:1.05;
+  filter: drop-shadow(0px 4px 4px rgb(207,78,78));
+}
+
+.navArrow{
+  padding-left:25px;
+  display: inline;
+  transition: all 0.25s ease-in-out;
+  filter:drop-shadow(0px 4px 4px #00000025);
+}
+.navArrow:hover{
+  color: rgb(207, 78, 78);
+   filter: drop-shadow(0px 4px 4px rgb(207,78,78));
+  
+  scale: 1.05;
+}
+
 .navArrow-flip {
+  display: inline;
+  transition: all 0.25s ease-in-out;
+  filter:drop-shadow(0px 4px 4px #00000025);
   transform: scaleX(-1);
+}
+.navArrow-flip:hover{
+  color: rgb(207, 78, 78);
+  filter: drop-shadow(0px 4px 4px rgb(207,78,78));
+  
+  scale: 1.05;
+}
+
+.previousButton{
+  padding-left: 200px;
+  display: inline;
+  
+}
+.nextButton{
+  display: inline;
+  padding-left:25px;
+}
+
+.blank {
+  display: inline;
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
 }

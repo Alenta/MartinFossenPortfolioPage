@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Martin Fossen</title>
+    
     <link rel="stylesheet" href="/styles/style.css" />
     <link rel="stylesheet" href="/styles/sidebar.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,6 +23,7 @@
       href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
       rel="stylesheet"
     />
+    <script defer src="/js/main.js"></script>
   </head>
   <body>
     <div class="navcontainer">
@@ -42,50 +44,68 @@
       <h1>MARTIN FOSSEN</h1>
       <hr />
       <h2>Digital Developer</h2>
-      
-      <p>
-        I'm a developer and UI designer from Bergen, Norway. Versatile with several design tools and mediums, I love bringing harmony to designs.
-      </p>
+      <div class="pHolder">
+        <p>
+          I'm a developer and UI designer from Bergen, Norway. Versatile with several design tools and mediums, 
+          I love bringing harmony to designs.
+        </p>
+      </div>
+      <p class="sideh3">Selected Works:</p>
+      <a href="" class="cardHeader" id="nwtText">Native Woodland Trust</a>
+      <a href="" class="cardHeader" id="ssText">SolarSmart</a>
+      <a href="" class="cardHeader" id="wwfText">WWF</a>
       <div class="cardContainer">
-        <h3>Native Woodland Trust</h3>
-        <a href="">
-          <img
-            class="navArrow-flip"
-            src="/img/Arrow.png"
-            alt="Left Navigation arrow for designs"
-        /></a>
-
-        <a href="/html/nativeWoodlandTrust.html">
+        <div class="previousButton">
+          <button class="blank" id="previousDesignPreview">
+          <img class="navArrow" 
+          src="/img/BlackArrow.png" 
+          alt="Previous design preview">
+          </button>
+        </div>
+        
+        <div id="nwtCard">
+          <a href="/html/nativeWoodlandTrust.html"></a>
           <img
             class="card"
             src="/img/woodlands/Home.png"
-            alt="Design for Native Woodlands Trust, Homescreen"
-          />
-        </a>
-
-        <a href="/html/nativeWoodlandTrust.html">
+            alt="Design for Native Woodlands Trust, Homescreen"/>
+          </a>
+          <a href="/html/nativeWoodlandTrust.html">
+            <img
+              class="card"
+              src="/img/woodlands/Sites.png"
+              alt="Design for Native Woodlands Trust, Sites"/>
+          </a>
+          <a href="/html/nativeWoodlandTrust.html">
+            <img
+              class="card"
+              src="/img/woodlands/SpecificTrail.png"
+              alt="Design for Native Woodlands Trust, Specific trail"/>
+          </a>
+        </div>
+        <div id="sSmartCard">
+          <a href="/html/solarsmart.html">
           <img
-            class="card"
-            src="/img/woodlands/Sites.png"
-            alt="Design for Native Woodlands Trust, Sites"
-          />
-        </a>
-
-        <a href="/html/nativeWoodlandTrust.html"
-          ><img
-            class="card"
-            src="/img/woodlands/SpecificTrail.png"
-            alt="Design for Native Woodlands Trust, Specific trail"
-        /></a>
-
-        <a href="/html/nativeWoodlandTrust.html">
+            class="ssCard"
+            src="/img/SolarSmart.AboutUs.png"
+            alt="Design for Solar Smart, About Us"/></a>
+        </div>
+        <div id="wwfCard">
+          <a href="/html/wwf.html">
           <img
-            class="navArrow"
-            src="/img/Arrow.png"
-            alt="Right Navigation arrow for designs"
-          />
-        </a>
+            class="wwfCardImg"
+            src="/img/WWF.png"
+            alt="Design for WWF, Email Header"/></a>
+        </div>
+        <div class="nextButton">
+          <button class="blank" id="nextDesignPreview"> 
+          <img class="navArrow-flip"
+          src="/img/BlackArrow.png" 
+          alt="Next design preview">
+          </button>
+        </div>
       </div>
+      
     </main>
   </body>
 </html>

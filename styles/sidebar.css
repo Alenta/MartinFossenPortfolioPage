@@ -1,4 +1,7 @@
 /*Unordered list in navbar*/
+.navbar{
+  display: inline;
+}
 .navbar ul {
   list-style-type: none;
   padding: 0px;
@@ -32,13 +35,20 @@
 
 /*Links in navbar*/
 .navbar a {
+  transition: all 0.25s ease-in-out;
   color: rgb(74, 74, 74);
   text-decoration: none;
-  padding: 15px;
+  padding: 10px;
   display: block;
   text-align: center;
   font-weight: normal;
-  font-family: "Comfortaa", sans-serif;
+  font-family: "Abel", sans-serif;
+}
+.navbar a:hover{
+  color: rgb(207, 78, 78);
+  filter: drop-shadow(0px 4px 4px rgb(207,78,78));
+  
+  scale: 1.1;
 }
 
 .navcontainer {
